@@ -78,6 +78,10 @@ section{
     }
 }
 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: var(--brand);
+}
+
 .navbar-dark .navbar-nav .nav-link.active{
     color: var(--brand);
 }
