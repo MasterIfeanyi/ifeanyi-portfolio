@@ -340,6 +340,17 @@ form .form-control{
     }
 }
 
+/* nav tabs */
+
+.nav-pills .nav-link {
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: var(--brand);
+    color: black;
+}
+
 /* footer */
 footer{
     background-color: var(--dark2);

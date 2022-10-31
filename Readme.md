@@ -9,6 +9,11 @@ Here is a link to my website [Ifeanyi](https://ifeanyi-portfolio.netlify.app)
 ### Technologies & Skills
 JavScript, CSS, HTML, Nodejs, Reactjs, Express, SASS, Bootstrap, Tailwind, Heroku, Netlify.
 
+### Resources
+
+[Bootstrap tab](https://www.folkstalk.com/tech/tab-html-css-bootstrap-with-code-examples/)
+
+
 #### connect with me on 
 [twitter]: https://twitter.com/ifeanyiTchima
 [github]: https://github.com/MasterIfeanyi
