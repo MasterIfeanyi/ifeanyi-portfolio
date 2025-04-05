@@ -119,6 +119,20 @@ section{
     z-index: -1;
 }
 
+
+
+// Blog
+.blog{
+    border-radius: 30px;
+    position: relative;
+}
+
+#blog-carousel {
+    display: block !important;
+    visibility: visible !important;
+}
+
+
 // button
 
 .btn{

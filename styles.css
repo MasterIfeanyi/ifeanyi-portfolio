@@ -101,6 +101,16 @@ section {
   z-index: -1;
 }
 
+.blog {
+  border-radius: 30px;
+  position: relative;
+}
+
+#blog-carousel {
+  display: block !important;
+  visibility: visible !important;
+}
+
 .btn {
   padding: 13px 17px;
 }
