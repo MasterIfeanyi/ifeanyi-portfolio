@@ -217,24 +217,35 @@ section {
   background-color: var(--dark2);
   padding: 28px;
   display: flex;
+  flex-direction: column;
   border-radius: 8px;
 }
 .service img {
   width: 100%;
 }
-
-.iconbox {
-  width: 70px;
-  height: 70px;
+.service .iconbox {
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex: none;
   background-color: var(--dark1);
   margin-right: 18px;
+  margin-bottom: 18px;
   border-radius: 8px;
 }
 
+@media (min-width: 992px) {
+  .service {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .service .iconbox {
+    margin-bottom: 0;
+  }
+}
 /* divider */
 .divider {
   border: 1px solid rgba(255, 255, 255, 0.1);
