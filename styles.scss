@@ -123,8 +123,50 @@ section{
 
 // Blog
 .blog{
-    border-radius: 30px;
+    border-radius: 18px;
     position: relative;
+
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+
+    & img{
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.9s ease;
+    }
+
+
+    &:hover .btn-brand{
+        opacity: 1;
+        top: 40%;
+    }
+
+    & .btn{
+        background-color: var(--brand);
+        border-color: 1px solid var(--brand);
+        white-space: nowrap;
+        color: black;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: all 0.9s ease;
+
+        &:hover { 
+            opacity: 1;
+            background-color: var(--brand);
+            border-color: 1px solid var(--brand);
+            color: black;
+        }
+    }
+
+    &:hover img{
+        // transform: scale(1.1);
+        filter: blur(2px);
+    }
 }
 
 #blog-carousel {

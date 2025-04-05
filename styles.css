@@ -102,8 +102,42 @@ section {
 }
 
 .blog {
-  border-radius: 30px;
+  border-radius: 18px;
   position: relative;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.blog img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.9s ease;
+}
+.blog:hover .btn-brand {
+  opacity: 1;
+  top: 40%;
+}
+.blog .btn {
+  background-color: var(--brand);
+  border-color: 1px solid var(--brand);
+  white-space: nowrap;
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.9s ease;
+}
+.blog .btn:hover {
+  opacity: 1;
+  background-color: var(--brand);
+  border-color: 1px solid var(--brand);
+  color: black;
+}
+.blog:hover img {
+  filter: blur(2px);
 }
 
 #blog-carousel {
